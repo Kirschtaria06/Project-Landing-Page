@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    justify-content: space-evenly;
+    padding: 0px;
+    gap: 80px;
+    align-items: baseline;
+}
+
+.logo {
+    margin-left: 100px;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.contact{
+    margin-right: 100px;
+}
+
+.links, .contact {
+    font-size: 18px;
+    color: #e5e7eb;
+}
