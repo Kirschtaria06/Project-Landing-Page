@@ -160,10 +160,10 @@ b {
 }
 
 .cta-box {
-    width: 900px;
-    border-radius: 20px;
+    width: 800px;
+    border-radius: 15px;
     background-color: #3882f6;
-    padding: 60px;
+    padding: 50px;
     display: flex;
     justify-content: space-between;
     
@@ -182,7 +182,6 @@ b {
     display: flex;
     gap: 10px;
     flex-direction: column;
-    margin-left: 40px;
 }
 
 .cta-bold {
@@ -190,4 +189,13 @@ b {
     font-weight: bolder;
 }
 
+/* Footer */
+
+.footer {
+    height: 70px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
