@@ -79,3 +79,42 @@ a {
     box-sizing: border-box;
     width: 130px;
 }
+
+/* Random Info */
+.random-info {
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.random-info .main-text {
+    font-size: 40px;
+    box-sizing: border-box;
+    color: #1f2937;
+    width: 800px;
+    margin: 16px;
+}
+
+.cards {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+}
+
+.card img {
+    border-radius: 30px;
+    width: 150px;
+}
+.card .subtext {
+    font-size: 15px;
+    width: 150px;
+    box-sizing: border-box;
+    color: #1f2937;
+}
+
+b {
+    color: #1f2937;
+}
