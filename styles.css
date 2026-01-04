@@ -24,7 +24,7 @@ ul {
 }
 
 .logo {
-    margin-left: 150px;
+    margin-left: 140px;
     margin-right: auto;
     padding: 10px;
     font-size: 36px;
@@ -118,3 +118,76 @@ a {
 b {
     color: #1f2937;
 }
+
+/* Quote Section */
+
+.quote-section {
+    background-color: #e5e7eb;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 300;
+    box-sizing: border-box;
+    width: 800px;
+    padding: 5px;
+    margin: 20px;
+    outline: 2px solid red;
+}
+
+.source {
+    font-size: 24px;
+    color: #1f2937;
+    font-weight: bolder;
+    text-align: right;
+    width: 800px;
+}
+
+/* Call-to-Action */
+
+.cta {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-box {
+    width: 900px;
+    border-radius: 20px;
+    background-color: #3882f6;
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.cta-box .button {
+    height: 30px;
+    width: 130px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid #f9faf8;
+    margin-top: 10px;
+}
+
+.left-cta {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.cta-bold {
+    color: white;
+    font-weight: bolder;
+}
+
+
